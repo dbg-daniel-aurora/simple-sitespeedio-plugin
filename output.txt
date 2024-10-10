@@ -1,0 +1,35 @@
+Chromium 107.0.5304.62 Ubuntu 22.04
+Mozilla Firefox 130.0.1
+[2024-10-10 23:16:51] INFO: Versions OS: linux 6.10.4-linuxkit nodejs: v20.17.0 sitespeed.io: 35.1.2 browsertime: 23.1.1 coach: 8.0.2
+[2024-10-10 23:16:51] INFO: Starting the compare plugin. Will save this test as the baseline
+[2024-10-10 23:16:51] WARN: You should use 20+ iterations to get statistical significant data
+[2024-10-10 23:16:52] INFO: Running tests using Chrome - 1 iteration(s)
+[2024-10-10 23:16:52] INFO: Testing url https://www.example.com/ iteration 1
+[2024-10-10 23:17:01] INFO: Take after page complete check screenshot
+[2024-10-10 23:17:01] INFO: Take cumulative layout shift screenshot
+[2024-10-10 23:17:01] INFO: Take largest contentful paint screenshot
+[2024-10-10 23:17:04] INFO: Use the visual metrics portable script
+[2024-10-10 23:17:04] INFO: Get visual metrics from the video
+[2024-10-10 23:17:05] INFO: https://www.example.com/ 2 requests, TTFB: 110ms, firstPaint: 150ms, firstVisualChange: 156ms, FCP: 150ms, DOMContentLoaded: 117ms, LCP: 150ms, CLS: 0, TBT: 0ms, CPUBenchmark: 53ms, Load: 117ms, speedIndex: 156ms, visualComplete85: 156ms, lastVisualChange: 156ms
+[2024-10-10 23:17:05] INFO: The server responded with a 404 status code for https://www.example.com/favicon.ico
+[2024-10-10 23:17:05] INFO: Using id test_page for page baseline
+[2024-10-10 23:17:06] INFO: HTML stored in /sitespeed.io/sitespeed-result/www.example.com/2024-10-10-23-16-51
+Chromium 107.0.5304.62 Ubuntu 22.04
+Mozilla Firefox 130.0.1
+[2024-10-10 23:17:06] INFO: Versions OS: linux 6.10.4-linuxkit nodejs: v20.17.0 sitespeed.io: 35.1.2 browsertime: 23.1.1 coach: 8.0.2
+[2024-10-10 23:17:06] INFO: Starting the compare plugin.
+[2024-10-10 23:17:06] WARN: You should use 20+ iterations to get statistical significant data
+[2024-10-10 23:17:07] INFO: Running tests using Chrome - 1 iteration(s)
+[2024-10-10 23:17:07] INFO: Testing url https://www.example.com/ iteration 1
+[2024-10-10 23:17:15] INFO: Take after page complete check screenshot
+[2024-10-10 23:17:16] INFO: Take cumulative layout shift screenshot
+[2024-10-10 23:17:16] INFO: Take largest contentful paint screenshot
+[2024-10-10 23:17:19] INFO: Use the visual metrics portable script
+[2024-10-10 23:17:19] INFO: Get visual metrics from the video
+[2024-10-10 23:17:20] INFO: https://www.example.com/ 2 requests, TTFB: 113ms, firstPaint: 153ms, firstVisualChange: 156ms, FCP: 153ms, DOMContentLoaded: 120ms, LCP: 153ms, CLS: 0, TBT: 0ms, CPUBenchmark: 64ms, Load: 120ms, speedIndex: 156ms, visualComplete85: 156ms, lastVisualChange: 156ms
+[2024-10-10 23:17:20] INFO: The server responded with a 404 status code for https://www.example.com/favicon.ico
+[2024-10-10 23:17:20] INFO: Using id test_page for page baseline
+[2024-10-10 23:17:20] INFO: Got a baseline:test_page-1
+[2024-10-10 23:17:20] ERROR: TypeError: currentMetric.getValues is not a function
+    at ComparePlugin.processMessage (file:///usr/src/app/lib/plugins/compare/index.js:174:37)
+[2024-10-10 23:17:21] INFO: HTML stored in /sitespeed.io/sitespeed-result/www.example.com/2024-10-10-23-17-06
